@@ -3,7 +3,7 @@
 -- Add any additional options here
 
 -- enable color column
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "80,120"
 
 -- tab settings
 vim.opt.tabstop = 4
