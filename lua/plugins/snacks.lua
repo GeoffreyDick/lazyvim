@@ -2,6 +2,7 @@ return {
 	{
 		"snacks.nvim",
 		opts = {
+			scroll = { enabled = false }, -- disable scroll animation
 			dashboard = {
 				preset = {
 					header = [[
