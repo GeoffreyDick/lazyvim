@@ -15,9 +15,10 @@ require("lazy").setup({
 
 		-- editor
 		{ import = "lazyvim.plugins.extras.editor.telescope" },
+		{ import = "lazyvim.plugins.extras.editor.dial" },
 
 		-- coding
-		{ import = "lazyvim.plugins.extras.coding.copilot" },
+		{ import = "lazyvim.plugins.extras.ai.copilot" },
 
 		-- lang
 		{ import = "lazyvim.plugins.extras.lang.docker" },
