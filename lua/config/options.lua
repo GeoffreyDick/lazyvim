@@ -20,3 +20,8 @@ vim.opt.wrap = false
 
 -- offset scroll
 vim.opt.scrolloff = 8
+
+-- windows specific
+if vim.fn.has("Windows_NT") then
+	vim.g.nofsync = true
+end
