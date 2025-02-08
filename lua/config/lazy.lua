@@ -20,6 +20,9 @@ require("lazy").setup({
 		-- coding
 		{ import = "lazyvim.plugins.extras.ai.copilot" },
 
+		-- formatting
+		{ import = "lazyvim.plugins.extras.formatting.prettier" },
+
 		-- lang
 		{ import = "lazyvim.plugins.extras.lang.docker" },
 		{ import = "lazyvim.plugins.extras.lang.go" },
