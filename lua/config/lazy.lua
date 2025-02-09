@@ -20,6 +20,7 @@ require("lazy").setup({
 		-- coding
 		{ import = "lazyvim.plugins.extras.ai.copilot" },
 		{ import = "lazyvim.plugins.extras.ai.copilot-chat" },
+		{ import = "lazyvim.plugins.extras.coding.yanky" },
 
 		-- formatting
 		{ import = "lazyvim.plugins.extras.formatting.prettier" },
