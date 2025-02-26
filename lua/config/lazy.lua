@@ -14,23 +14,33 @@ require("lazy").setup({
 		-- import any extras modules here
 
 		-- editor
-		{ import = "lazyvim.plugins.extras.editor.fzf" },
 		{ import = "lazyvim.plugins.extras.editor.dial" },
+		{ import = "lazyvim.plugins.extras.editor.fzf" },
+		{ import = "lazyvim.plugins.extras.editor.mini-files" },
+		{ import = "lazyvim.plugins.extras.editor.snacks_explorer" },
+		{ import = "lazyvim.plugins.extras.editor.snacks_picker" },
 
-		-- coding
+		-- ai
 		{ import = "lazyvim.plugins.extras.ai.copilot" },
 		{ import = "lazyvim.plugins.extras.ai.copilot-chat" },
+
+		-- coding
+		{ import = "lazyvim.plugins.extras.coding.mini-surround" },
 		{ import = "lazyvim.plugins.extras.coding.yanky" },
 
 		-- formatting
 		{ import = "lazyvim.plugins.extras.formatting.prettier" },
 
 		-- lang
+		{ import = "lazyvim.plugins.extras.lang.ansible" },
+		{ import = "lazyvim.plugins.extras.lang.astro" },
 		{ import = "lazyvim.plugins.extras.lang.docker" },
 		{ import = "lazyvim.plugins.extras.lang.go" },
 		{ import = "lazyvim.plugins.extras.lang.json" },
 		{ import = "lazyvim.plugins.extras.lang.markdown" },
 		{ import = "lazyvim.plugins.extras.lang.rust" },
+		{ import = "lazyvim.plugins.extras.lang.sql" },
+		{ import = "lazyvim.plugins.extras.lang.svelte" },
 		{ import = "lazyvim.plugins.extras.lang.tailwind" },
 		{ import = "lazyvim.plugins.extras.lang.typescript" },
 		{ import = "lazyvim.plugins.extras.lang.yaml" },
