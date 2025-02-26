@@ -14,7 +14,7 @@ require("lazy").setup({
 		-- import any extras modules here
 
 		-- editor
-		{ import = "lazyvim.plugins.extras.editor.telescope" },
+		{ import = "lazyvim.plugins.extras.editor.fzf" },
 		{ import = "lazyvim.plugins.extras.editor.dial" },
 
 		-- coding
