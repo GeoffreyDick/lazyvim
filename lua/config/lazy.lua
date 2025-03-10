@@ -20,6 +20,9 @@ require("lazy").setup({
 		{ import = "lazyvim.plugins.extras.editor.snacks_explorer" },
 		{ import = "lazyvim.plugins.extras.editor.snacks_picker" },
 
+		-- ui
+		{ import = "lazyvim.plugins.extras.ui.treesitter-context" },
+
 		-- ai
 		{ import = "lazyvim.plugins.extras.ai.copilot" },
 		{ import = "lazyvim.plugins.extras.ai.copilot-chat" },
