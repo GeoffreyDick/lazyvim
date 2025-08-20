@@ -25,7 +25,6 @@ require("lazy").setup({
 
 		-- ai
 		{ import = "lazyvim.plugins.extras.ai.copilot" },
-		{ import = "lazyvim.plugins.extras.ai.copilot-chat" },
 
 		-- coding
 		{ import = "lazyvim.plugins.extras.coding.mini-surround" },
