@@ -37,6 +37,8 @@ require("lazy").setup({
 		{ import = "lazyvim.plugins.extras.lang.ansible" },
 		{ import = "lazyvim.plugins.extras.lang.astro" },
 		{ import = "lazyvim.plugins.extras.lang.docker" },
+		{ import = "lazyvim.plugins.extras.lang.elixir" },
+		{ import = "lazyvim.plugins.extras.lang.erlang" },
 		{ import = "lazyvim.plugins.extras.lang.git" },
 		{ import = "lazyvim.plugins.extras.lang.go" },
 		{ import = "lazyvim.plugins.extras.lang.json" },
@@ -49,9 +51,13 @@ require("lazy").setup({
 		{ import = "lazyvim.plugins.extras.lang.toml" },
 		{ import = "lazyvim.plugins.extras.lang.typescript" },
 		{ import = "lazyvim.plugins.extras.lang.yaml" },
+		{ import = "lazyvim.plugins.extras.lang.zig" },
 
 		-- linting
 		{ import = "lazyvim.plugins.extras.linting.eslint" },
+
+		-- utils
+		{ import = "lazyvim.plugins.extras.util.mini-hipatterns" },
 
 		-- import/override with your plugins
 		{ import = "plugins" },
