@@ -1,18 +1,19 @@
 return {
 	{
-		"sainnhe/gruvbox-material",
-		lazy = false,
-		priority = 1000,
+		"vague-theme/vague.nvim",
+		lazy = false, -- make sure we load this during startup if it is your main colorscheme
+		priority = 1000, -- make sure to load this before all the other plugins
 		config = function()
-			vim.g.gruvbox_material_enable_italic = true
-			vim.g.grubbox_material_background = "hard"
-			vim.g.gruvbox_material_transparent_background = 2
+			-- NOTE: you do not need to call setup if you don't want to.
+			require("vague").setup({
+				-- optional configuration here
+			})
 		end,
 	},
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "gruvbox-material",
+			colorscheme = "vague",
 		},
 	},
 }
